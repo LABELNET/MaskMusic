@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/list_tv_bg">
+
+                <ImageView
+                    android:id="@+id/mlist_iv_music_songpic"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/moren_big" />
+
+                <TextView
+                    android:id="@+id/mlist_tv_music_songname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_toRightOf="@+id/mlist_iv_music_songpic"
+                    android:maxLines="2"
+                    android:text="@string/list_item_song_name"
+                    android:textColor="@color/text_color_whrit"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/mlist_tv_music_singer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="20dp"
+                    android:text="@string/list_item_singer_name"
+                    android:textColor="@color/app_color_zi"
+                    android:textSize="12sp" />
+
+</RelativeLayout>

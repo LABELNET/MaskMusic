@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp" >
+
+    <ImageView
+        android:id="@+id/iv_notification_logo"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/tv_nofitication_singname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/iv_notification_logo"
+        android:maxLines="1"
+        android:textSize="12sp"
+        android:text="@string/item_notification_singname"
+        android:textColor="@color/text_color_whrit" />
+
+    <TextView
+        android:id="@+id/tv_nofitication_singer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+         android:textSize="10sp"
+        android:layout_toRightOf="@+id/iv_notification_logo"
+        android:text="@string/item_notifiaction_singer"
+        android:textColor="@color/bg_color" />
+
+    <ImageView
+        android:id="@+id/iv_nofitication_kzhi_play"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toLeftOf="@+id/iv_nofitication_kzhi_next"
+        android:src="@android:drawable/ic_media_play" />
+
+    <ImageView
+        android:id="@+id/iv_nofitication_kzhi_next"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+         android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toLeftOf="@+id/iv_nofitication_kzhi_colse"
+        android:src="@android:drawable/ic_media_next" />
+
+    <ImageView
+        android:id="@+id/iv_nofitication_kzhi_colse"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:textColor="@color/text_color_main" />
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/richu" >
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/app_color_whrit"
+        android:gravity="center"
+        android:text="@string/tv_main_title"
+        android:textColor="@color/app_color"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_welcome_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/maskmusic_welcome"
+        android:textSize="18sp"
+        android:textColor="@color/app_color_zhu" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/music_net"
+        android:textColor="@color/app_color_zhu"
+        android:textStyle="italic" />
+
+</RelativeLayout>

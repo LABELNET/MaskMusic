@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/main_tv_bg"
+    android:layout_height="70dp" >
+
+    <TextView
+        android:id="@+id/list_item_play"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="@color/app_color"
+        android:text="@string/main_item_num" />
+
+    <TextView
+        android:id="@+id/tv_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_toRightOf="@+id/list_item_play"
+        android:maxLines="2"
+        android:text="@string/list_item_song_name"
+        android:textColor="@color/text_color_black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_item_singer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_item_name"
+        android:layout_toRightOf="@+id/list_item_play"
+        android:text="@string/list_item_singer_name"
+        android:textColor="@color/text_color_main"
+        android:textSize="12sp" />
+
+</RelativeLayout>

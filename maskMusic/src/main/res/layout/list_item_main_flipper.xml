@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp" >
+
+    <ImageView
+        android:id="@+id/iv_list_item_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/moren_big" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/app_color_borwn" >
+
+        <TextView
+            android:id="@+id/tv_list_wen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:layout_marginLeft="20dp"
+            android:text="@string/tv_main_xindie"
+            android:textColor="@color/text_color_whrit" />
+        
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_list_item_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:text="@string/list_item_flipper_tv"
+        android:textColor="@color/text_color_whrit" />
+
+</RelativeLayout>

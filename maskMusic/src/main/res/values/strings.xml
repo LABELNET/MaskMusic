@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">音心</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tv_main_bangdan">热门榜单</string>
+    <string name="tv_main_xindie">新碟上架</string>
+    <string name="list_item_song_name">一个人 (《前任2：备胎反击战》电影主题曲)</string>
+    <string name="list_item_singer_name">未知</string>
+    <string name="tv_mian_nomsg">查看更多</string>
+    <string name="tv_main_title">音心</string>
+    <string name="list_item_flipper_tv1">1</string>
+    <string name="list_item_flipper_tv2">/</string>
+    <string name="list_item_flipper_tv">1/5</string>
+    <string name="list_item_grid_tv">乡村</string>
+    <string name="item_notification_singname">我只想静静</string>
+    <string name="item_notifiaction_singer">千秋</string>
+    <string name="main_item_num">01</string>
+    <string name="music_play_return">返回</string>
+    <string name="music_song_ci">我是歌词,但没有歌词</string>
+    <string name="music_jin_du">我是进度君</string>
+    <string name="procress_1_23">00:00</string>
+    <string name="music_activity_renxinghua">请稍后。。。</string>
+    <string name="msuic_acitivity_nolrc">感谢你的支持，但木有歌词！</string>
+    <string name="music_activity_nolrc">即将播放完毕，谢谢收听！</string>
+    <string name="music_songname_sm">什么东东</string>
+    <string name="music_fenlei_mingyao">民谣</string>
+    <string name="msuic_fenlei_xiaoliang">销量</string>
+    <string name="music_fenlei_china">内地</string>
+    <string name="music_fenlei_oumei">欧美</string>
+    <string name="music_fenlei_hangkang">港台</string>
+    <string name="music_fenlei_hanguo">韩国</string>
+    <string name="music_fenlei_riben">日本</string>
+    <string name="music_fenlei_yaogun">摇滚</string>
+    <string name="title_activity_music_list">MusicListActivity</string>
+    <string name="music_list_title">热搜榜</string>
+    <string name="music_list_resou">热搜之榜</string>
+    <string name="maskmusic_welcome">音心音乐，不一样的试听.</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="music_net">www.labelnet.cn</string>
+    <string name="music_no_msg">没有更多了</string>
+
+</resources>

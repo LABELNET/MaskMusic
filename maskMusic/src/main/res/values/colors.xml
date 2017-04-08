@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_color">#eee</color>
+    <color name="bg_item_color">#795548</color>
+    
+    <color name="text_color_main">#727272</color>
+    <color name="text_color_whrit">#FFFFFF</color>
+    <color name="text_color_black">#000000</color>
+    
+    <color name="app_color">#2bcfb2</color>
+    <color name="app_color_zi">#E91E63</color>
+    
+    <color name="app_color_borwn">#5D403777</color>
+     <color name="app_color_whrit">#55FCFCFC</color>
+<color name="app_color_zhu">#88FCFCFC</color>
+    
+</resources>

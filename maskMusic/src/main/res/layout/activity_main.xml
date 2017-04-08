@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/text_color_whrit" >
+
+        <!-- 菜单 -->
+
+        <TextView
+            android:id="@+id/tv_main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:text="@string/tv_main_title"
+            android:textColor="@color/app_color"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/iv_main_search"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/sousuo" />
+
+        <ImageView
+            android:id="@+id/iv_main_music"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/player" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bg_color" />
+    </RelativeLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swiperefresh_wei"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/main_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ViewFlipper
+                    android:id="@+id/main_view_flipper"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="10dp" >
+                </ViewFlipper>
+
+                <TextView
+                    android:id="@+id/tv_main_bangdan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/text_color_whrit"
+                    android:padding="10dp"
+                    android:text="@string/tv_main_xindie"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/bg_color" />
+
+                <FrameLayout
+                    android:id="@+id/main_lineat_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/text_color_whrit" >
+
+                    <GridView
+                        android:id="@+id/main_gridview"
+                        android:layout_width="356dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:horizontalSpacing="0dp"
+                        android:numColumns="4"
+                        android:scrollbars="none"
+                        android:verticalSpacing="0dp" >
+                    </GridView>
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tv_main_xindie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/text_color_whrit"
+                    android:padding="10dp"
+                    android:text="@string/tv_main_bangdan"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="12sp" />
+
+                <RelativeLayout
+                    android:id="@+id/main_listview_fragement"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp" />
+
+                <TextView
+                    android:id="@+id/tv_main_more"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/main_tv_bg"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/tv_mian_nomsg"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>
